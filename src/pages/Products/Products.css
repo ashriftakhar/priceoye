@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans","Noto Nastaliq Urdu Draft","Roboto","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color:rgb(250, 248, 248);
+}
+.header{
+    background-color:#48afff;
+    height:70px;
+    color:white;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    #header-title{
+        font-size: 25px;
+        padding-left:5px;;
+    }
+    .first-section{
+        
+        height:50px;
+        display: flex;
+        align-items: center;
+       
+       
+    }
+    .first-section h1{
+        margin-left: 20px;
+    }
+    .first-section i{
+        margin-left: 10px;;
+    }
+    .last-section{
+        margin-right: 27%;
+        position: relative;
+       
+    }
+    .header-mic{
+      position: absolute;
+      top:15px;
+      right:10px;
+    
+    }
+    #mic-icon{
+        color:#48afff;
+        height:80%;
+        width:20px;
+    }
+    .search-bar{
+        height:50px;
+        min-width: 300px;
+        border:none;
+        border-radius: 6px;
+        padding:10px 0 10px 10px;
+        position: relative;
+        outline: none;
+        
+    }
+    .search-bar::placeholder{
+        padding-left: 20px;;
+    }
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:50px;
+    min-width: 100%;
+    background-color: #fff;
+   
+}
+.second-logos{
+   background-color:black;
+   height:40px;
+}
+
+.third-section{
+min-width:95%;
+font-size: 1rem;
+padding:13px;
+margin: 25px 25px 15px 25px;
+border-radius: 5px;
+background-color: #fff;
+line-height: 2rem;
+}
+
+.final{
+    max-width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.left{
+background-color: #fff;
+min-width: 300px;
+
+margin-left:25px;
+padding:24px;
+}
+.left-top-section{
+    
+    position: relative;
+}
+.left-top-arrow{
+    position: absolute;
+    top:4px;
+    right:8px;
+}
+.left p{
+    margin-bottom: 10px;;
+}
+
+.left-mid-section{
+    position: relative;
+    line-height: 25px;
+}
+.left-mid-arrow{
+    position: absolute;
+  right:8px;
+  top:10px;
+}
+.checkboxes{
+    line-height: 25px;
+}
+.left-last-section{
+    position: relative;
+}
+.left-last-arrow{
+    position: absolute;
+    right:9px;
+    top:3px;
+}
+.checkboxes-last{
+    padding-top: 10px;
+   padding-bottom: 10px;
+   line-height: 30px;
+   font-size: 14px;
+   
+}
+.line{
+    width:80%;
+    margin-bottom: 20px;;
+    margin-top: 10px;
+}
+.right{
+
+width:69%;
+min-height:600px;
+margin-right:3%;
+background-color: rgb(252, 251, 251);
+}
+/* .first-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second-row{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+
+.card{
+
+min-height: 270px;
+min-width:200px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-color: #fff;
+
+}
+.sort{
+    display: flex;
+    justify-content: space-between;
+}
+/* /* .card-img{
+    height:140px;
+    width:100px;
+    margin-bottom: 10px;;
+} */
+.card-des{
+    margin-top:10px;
+    margin-bottom: 10px;;
+    
+}
+#sale{
+    margin:10px 0;
+} 
+.buttons{
+  width: 95%;
+    margin: 25px 25px 15px 25px;
+   margin:0 auto;
+   margin-top:20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(245, 244, 244);
+   display: none;
+
+  
+   
+  
+}
+.sham-btn{
+padding:10px;
+width:39%;
+background-color: #fff;
+margin-left: 10px;
+margin-right:5px;
+margin-bottom: 10px;
+border: none;
+border-radius: 3px;
+}
+
+
+
+@media screen and (max-width: 460px) {
+    .search-bar{       
+        display: none;
+    }
+    .third-section{
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+  }
+  @media screen and (max-width: 768px) {
+   
+
+    .left{
+        display: none;
+    }
+    .buttons{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+  }
+
+@media screen and (max-width: 460px) {
+   .second{
+     overflow-x: scroll;
+   width:auto;
+   }
+
+  }

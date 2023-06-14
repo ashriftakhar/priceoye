@@ -1,0 +1,41 @@
+.bestselling{
+margin-top: 75px;
+
+
+}
+.bestselling_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 10px;
+}
+.bestselling_firstcard{
+    grid-row: 1 / span 2;
+}
+.bestselling_lastcards{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;;
+}
+
+.bestselling_heading{
+    color:#404040;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+
+.bestselling_cards_title{
+    color:#404040;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.bestselling_cards_image{
+    height:370px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.bestselling_cards_price{
+    margin-bottom: 10px;
+}

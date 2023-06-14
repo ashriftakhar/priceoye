@@ -1,0 +1,34 @@
+.earbuds{
+    margin-left: 20px;;
+   margin:0 20px;
+    margin-bottom: 15PX;;
+}
+.earbuds_title{
+    display: flex;
+    justify-content: space-between;
+}
+.earbuds_cards{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    flex-wrap: wrap;
+}
+.earbuds_btn{
+    border: none;
+    color:#699FD1;
+    padding:20px;
+    font-size: 18px;
+    cursor:pointer;
+    background-color: transparent !important;
+}
+.earbuds_heading{
+    padding:60px 0 30px 0;
+    color:#404040;
+    font-size: 20px;
+}
+.earbuds_heading:hover{
+    opacity: 0.6;
+}
+.earbuds_btn:hover{
+    color:#737D76;
+}
